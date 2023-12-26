@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div>
         <Link href='/post'><p>list of posts</p></Link>
-        <BlogCard/>
+        <p>pending..</p>
     </div>
   )
 }
