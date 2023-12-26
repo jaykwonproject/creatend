@@ -4,13 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
-    "start-backend": "node backend/index.js", 
-    "start-frontend": "next dev",
-    "build": "npm run build-frontend && npm run build-backend",
-    "build-frontend": "next build",
-    "build-backend": "cd backend && npm install && npm run build && cd ..",
-    "start": "next start -p $PORT",
-    "lint": "next lint"
+  "start-backend": "node backend/index.js", 
+  "start-frontend": "next dev",
+  "build": "next build",
+  "start": "next start -p $PORT",
+  "lint": "next lint"
   },   
   "dependencies": {
     "@vercel/analytics": "^1.1.1",
