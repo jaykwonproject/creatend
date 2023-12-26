@@ -8,7 +8,7 @@
     "start-frontend": "next dev",
     "build": "npm run build-frontend && npm run build-backend",
     "build-frontend": "next build",
-    "build-backend": "cd backend && npm run build", 
+    "build-backend": "cd backend && npm install && npm run build && cd ..",
     "start": "next start -p $PORT",
     "lint": "next lint"
   },   
